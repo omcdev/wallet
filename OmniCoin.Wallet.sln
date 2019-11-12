@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.Utility", "OmniCoin.Utility\OmniCoin.Utility.csproj", "{F0584BED-C86D-45B7-A55A-23D8B8451E52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.DTO", "OmniCoin.DTO\OmniCoin.DTO.csproj", "{4EA037FC-98A2-49C4-98EE-2E0238FAAC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmniCoin.Wallet.Win", "OmniCoin.Wallet.Win\OmniCoin.Wallet.Win.csproj", "{90DA7345-06FC-45E8-8AC9-42D7DB0243AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.Business", "OmniCoin.Business\OmniCoin.Business.csproj", "{10E01CE7-6CBE-480E-A99D-CA95819F61F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.Miner", "OmniCoin.Miner\OmniCoin.Miner.csproj", "{9AD610D3-33D0-4A75-8A46-6A87ACADE276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.Models", "OmniCoin.Models\OmniCoin.Models.csproj", "{760FA138-0F6C-41C2-AF59-7FE129FBA0F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.ServiceAgent", "OmniCoin.ServiceAgent\OmniCoin.ServiceAgent.csproj", "{67470A37-BFFF-486F-BBCE-0CACAC478822}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OmniCoin.Wallet.Cli", "OmniCoin.Wallet.Cli\OmniCoin.Wallet.Cli.csproj", "{A835E590-C0D3-4737-84F9-27D618407B25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0584BED-C86D-45B7-A55A-23D8B8451E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0584BED-C86D-45B7-A55A-23D8B8451E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0584BED-C86D-45B7-A55A-23D8B8451E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0584BED-C86D-45B7-A55A-23D8B8451E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA037FC-98A2-49C4-98EE-2E0238FAAC9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA037FC-98A2-49C4-98EE-2E0238FAAC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA037FC-98A2-49C4-98EE-2E0238FAAC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA037FC-98A2-49C4-98EE-2E0238FAAC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DA7345-06FC-45E8-8AC9-42D7DB0243AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DA7345-06FC-45E8-8AC9-42D7DB0243AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DA7345-06FC-45E8-8AC9-42D7DB0243AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DA7345-06FC-45E8-8AC9-42D7DB0243AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E01CE7-6CBE-480E-A99D-CA95819F61F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E01CE7-6CBE-480E-A99D-CA95819F61F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E01CE7-6CBE-480E-A99D-CA95819F61F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E01CE7-6CBE-480E-A99D-CA95819F61F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD610D3-33D0-4A75-8A46-6A87ACADE276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD610D3-33D0-4A75-8A46-6A87ACADE276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD610D3-33D0-4A75-8A46-6A87ACADE276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD610D3-33D0-4A75-8A46-6A87ACADE276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760FA138-0F6C-41C2-AF59-7FE129FBA0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760FA138-0F6C-41C2-AF59-7FE129FBA0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760FA138-0F6C-41C2-AF59-7FE129FBA0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760FA138-0F6C-41C2-AF59-7FE129FBA0F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67470A37-BFFF-486F-BBCE-0CACAC478822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67470A37-BFFF-486F-BBCE-0CACAC478822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67470A37-BFFF-486F-BBCE-0CACAC478822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67470A37-BFFF-486F-BBCE-0CACAC478822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A835E590-C0D3-4737-84F9-27D618407B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A835E590-C0D3-4737-84F9-27D618407B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A835E590-C0D3-4737-84F9-27D618407B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A835E590-C0D3-4737-84F9-27D618407B25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1523AFCB-02B4-4DCB-B49E-0F4BA676D0AD}
+	EndGlobalSection
+EndGlobal

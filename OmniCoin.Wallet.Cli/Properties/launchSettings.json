@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OmniCoin.Wallet.Cli": {
+      "commandName": "Project",
+      "commandLineArgs": "utxo \"F5BB5749ED6702CAA8699F4B42F653E3FDFD12E9CE6ED1AD455F4A50775D7C87\" 0 true -o"
+    }
+  }
+}

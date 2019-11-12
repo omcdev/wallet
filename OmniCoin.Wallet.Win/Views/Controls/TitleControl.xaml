@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="OmniCoin.Wallet.Win.Views.ShellPages.TitleControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:OmniCoin.Wallet.Win.CustomControls"
+             xmlns:shellPages="clr-namespace:OmniCoin.Wallet.Win.Views.ShellPages"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="550">
+    <Border Background="#F6F7F9" CornerRadius="1 1 0 0">
+        <Grid>
+
+            <Image Margin="15 0 0 0" Source="../../images/logo.png" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            
+
+            <TextBlock Text="{Binding Title,RelativeSource={RelativeSource AncestorType=shellPages:TitleControl}}" 
+                       Margin="40 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" 
+                       FontFamily="{StaticResource GlobalFontFamily}" FontSize="14" Foreground="#504F56 "/>
+
+            <controls:ImageButton Width="30" Height="30" 
+                                  Visibility="{Binding CloseIsWord,RelativeSource={RelativeSource AncestorType=shellPages:TitleControl},Converter={StaticResource _booleanToVisibilityConverter},ConverterParameter=reverse}"
+                                  Background="Transparent" Margin="0 0 20 0"
+                                  Source="../../images/windows/dialog_close.png" HorizontalAlignment="Right" 
+                                  Command="{Binding DataContext.ClosePopupCommand,RelativeSource={RelativeSource AncestorType=Page}}"/>
+
+            <Button HorizontalAlignment="Right" 
+                    Visibility="{Binding CloseIsWord,RelativeSource={RelativeSource AncestorType=shellPages:TitleControl},Converter={StaticResource _booleanToVisibilityConverter}}"
+                    Content="{Binding CloseWord,RelativeSource={RelativeSource AncestorType=shellPages:TitleControl}}"
+                    Command="{Binding DataContext.ClosePopupCommand,RelativeSource={RelativeSource AncestorType=Page}}"
+                    Background="Transparent" VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="14" BorderThickness="0" Margin="0 0 20 0" Foreground="#158CFB"/>
+        </Grid>
+    </Border>
+</UserControl>

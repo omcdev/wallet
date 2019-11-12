@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net45;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OmniCoin.DTO\OmniCoin.DTO.csproj" />
+    <ProjectReference Include="..\OmniCoin.Models\OmniCoin.Models.csproj" />
+    <ProjectReference Include="..\OmniCoin.ServiceAgent\OmniCoin.ServiceAgent.csproj" />
+    <ProjectReference Include="..\OmniCoin.Utility\OmniCoin.Utility.csproj" />
+  </ItemGroup>
+
+</Project>
